@@ -1,0 +1,11 @@
+$ vi ayesha.sh
+$ chmod u+x ayesha.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 55 Nov 18 04:13 ayesha.sh
+$ ./ayesha.sh
+Total value : 4
+
+#!/bin/bash
+val=`expr 2 + 2`
+echo "Total value : $val"

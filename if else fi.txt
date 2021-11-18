@@ -1,0 +1,18 @@
+vi ayesha.sh
+$ chmod u+x ayesha.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 112 Nov 17 07:01 ayesha.sh
+$ ./ayesha.sh
+s is not equal to b
+
+
+#!/bin/bash
+a=9
+b=11
+if [ $a == $b ]
+then
+     echo "a is equal to b"
+else
+     echo "s is not equal to b"
+fi

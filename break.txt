@@ -1,0 +1,25 @@
+$ vi ayesha.sh
+$ chmod u+x ayesha.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 109 Nov 18 03:49 ayesha.sh
+$ ./ayesha.sh
+0
+1
+2
+3
+4
+5
+
+
+#!/bin/bash
+a=0
+while [ $a -lt 10 ]
+do
+  echo $a 
+  if [ $a -eq 5 ]
+  then
+    break
+  fi
+  a=`expr $a + 1`
+done 

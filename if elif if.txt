@@ -1,0 +1,25 @@
+#!/bin/bash
+a=9
+b=11
+if [ $a == $b ]
+then
+     echo "a is equal to b"
+else
+     echo "s is not equal to b"
+fi
+
+#!/bin/bash
+a=10
+b=11
+if [ $a == $b ]
+then
+     echo "a  is equal to b"
+elif [ $a -gt $b ]
+then
+    echo "a is greater than b"
+elif [ $a -lt $b ]
+then
+    echo "a is less than b"
+else
+    echo "none of the condition met"
+fi

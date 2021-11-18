@@ -1,0 +1,12 @@
+$ vi ayesha.sh
+$ chmod u+x ayesha.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 317 Nov 18 06:37 ayesha.sh
+$ ./ayesha.sh
+1) tea
+2) cofee
+3) water
+4) juice
+#? 
+

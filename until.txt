@@ -1,0 +1,24 @@
+$ vi ayesha.sh
+$ chmod u+x ayesha.sh
+$ ls -l
+total 4
+-rwxr--r-- 1 root root 78 Nov 18 03:44 ayesha.sh
+$ ./ayesha.sh
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+#!/bin/bash
+a=0
+until [ ! $a -lt 10 ]
+do
+   echo $a
+    a=`expr $a + 1`
+done
